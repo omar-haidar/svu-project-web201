@@ -1,0 +1,32 @@
+[
+  {
+    "city": "دمشق",
+    "area": "170م²",
+    "contractDuration": "سنة",
+    "price": "14,000,000 ل.س",
+    "monthlyRent": "900,000 ل.س",
+    "startDate": "12/07/2024",
+    "endDate": "22/07/2024",
+    "details": {
+      "region": "المالكة",
+      "garage": "متوفر",
+      "rooms": 3,
+      "image": "./images/apartment-1.jpg"
+    }
+  },
+  {
+    "city": "حلب",
+    "area": "150م²",
+    "contractDuration": "سنتين",
+    "price": "10,000,000 ل.س",
+    "monthlyRent": "700,000 ل.س",
+    "startDate": "01/08/2024",
+    "endDate": "15/08/2024",
+    "details": {
+      "region": "السليمانية",
+      "garage": "غير متوفر",
+      "rooms": 2,
+      "image": "./images/apartment-2.jpg"
+    }
+  }
+]

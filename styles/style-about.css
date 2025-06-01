@@ -1,0 +1,39 @@
+.about-section, .contact-section {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.about-section h2, .contact-section h2 {
+    color: #00587a;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    padding: 10px 0;
+    font-size: 17px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.contact-section ul li:last-child {
+    border-bottom: none;
+}
+
+.contact-section strong {
+    color: #007ea7;
+}

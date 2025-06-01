@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    
+    <title>نبذة عنا - مكتب بيع وتأجير العقارات</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/style-about.css" />
+</head>
+<body>
+
+<header>
+    <img src="./images/logo.png" alt="شعار المكتب" class="center" />
+    <h1>مكتب بيع وتأجير العقارات</h1>
+
+    <!-- زر القائمة للموبايل -->
+    <button class="menu-toggle" onclick="toggleMenu()">☰ الصفحات</button>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">الصفحة الرئيسية</a></li>
+            <li><a href="about.html" class="active">نبذة عنا</a></li>
+            <li><a href="properties.html">العقارات</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="about-section">
+        <h2>حول مكتب بيع وتأجير العقارات</h2>
+        <p>
+            نقدم خدمات شاملة في مجال بيع وتأجير العقارات الحديثة والقديمة في دمشق وريفها. نوفر كافة أنواع العقارات بمساحات وأسعار متنوعة تناسب الجميع.
+        </p>
+        <p>
+            يمكنك الحجز مسبقًا للاستفادة من عروضنا التنافسية والمناسبة مقارنةً بباقي المكاتب.
+        </p>
+        <p>
+            نتميز في مكتبتنا بتوفير أنواع مختلفة ومتنوعة من العقارات، بعضها مزود بكراج وبعضها يتمتع بإطلالات جميلة.
+        </p>
+        <p>
+            نفتخر بالتزامنا الكامل بالجودة ورضا العملاء، ونضمن لك تميزًا في كل عرض نقدمه.
+        </p>
+    </section>
+
+    <section class="contact-section">
+        <h2>تواصل معنا</h2>
+        <ul>
+            <li><strong>الهاتف:</strong> 0934469459</li>
+            <li><strong>واتس أب:</strong> +963934469459</li>
+            <li><strong>فيس بوك:</strong> aleaqarat و altmes</li>
+            <li><strong>العنوان:</strong> دمشق</li>
+        </ul>
+    </section>
+</main>
+
+<script>
+    function toggleMenu() {
+        const navList = document.querySelector("nav ul");
+        navList.classList.toggle("show");
+    }
+</script>
+
+</body>
+</html>

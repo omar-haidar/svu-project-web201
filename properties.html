@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+ 
+  <title>العقارات المتاحة - مكتب بيع وتأجير العقارات</title>
+  
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/style-properties.css" />
+</head>
+<body>
+
+<header>
+    <img src="./images/logo.png" alt="شعار المكتب" class="center" />
+    <h1>مكتب بيع وتأجير العقارات</h1>
+
+    <!-- زر القائمة للموبايل -->
+    <button class="menu-toggle" onclick="toggleMenu()">☰ الصفحات</button>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">الصفحة الرئيسية</a></li>
+            <li><a href="about.html" class="active">نبذة عنا</a></li>
+            <li><a href="properties.html">العقارات</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+  <section class="property-section">
+    <h2>العقارات المتاحة</h2>
+
+    <div class="cards-container">
+      <div class="property-card">
+        <img src="./images/apartment-1.jpg" alt="شقة في المالكة" class="property-img" />
+        <div class="property-info">
+          <h3>دمشق - المالكة</h3>
+          <p><strong>المساحة:</strong> 170 م²</p>
+          <p><strong>مدة العقد:</strong> سنة</p>
+          <p><strong>السعر:</strong> 14,000,000 ل.س</p>
+          <p><strong>الإيجار الشهري:</strong> 900,000 ل.س</p>
+          <p><strong>بداية البازار:</strong> 12/07/2024</p>
+          <p><strong>نهاية البازار:</strong> 22/07/2024</p>
+
+          <button class="btn-toggle-details" onclick="toggleCardDetails(this)">تفاصيل أكثر ▼</button>
+          <div class="details hidden">
+            <ul>
+              <li>كراج: متوفر</li>
+              <li>عدد الغرف: 3</li>
+            </ul>
+            <label>
+              <input type="radio" name="selected_property" />
+              اختيار هذا العقار
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- يمكنك إضافة بطاقات أخرى بنفس الشكل هنا -->
+
+    </div>
+  </section>
+
+  <!-- نموذج الطلب يبقى كما هو -->
+  <section class="form-section">
+    <h2>اطلب عقارك المفضل</h2>
+    <form id="property-form" class="form-card" onsubmit="return validateForm()">
+      <label for="email">البريد الإلكتروني :</label>
+      <input type="email" id="email" name="email" placeholder="example@example.com" required />
+
+      <label for="phone">رقم الهاتف:</label>
+      <input type="tel" id="phone" name="phone" placeholder="مثال: 093xxxxxxx" required />
+
+      <label for="id">رقم الهوية:</label>
+      <input type="text" id="id" name="id" placeholder="رقم الهوية الوطنية" required />
+
+      <button type="submit">إرسال</button>
+    </form>
+  </section>
+</main>
+
+
+<script src="./scripts/scripts.js"></script>
+
+</body>
+</html>
