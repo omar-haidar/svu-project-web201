@@ -1,24 +1,4 @@
 
-const checkbox1 = document.getElementById('toggleList1');
-const list1 = document.getElementById('myList1');
-const checkbox2 = document.getElementById('toggleList2');
-const list2 = document.getElementById('myList2');
-const checkbox3= document.getElementById('toggleList3');
-const list3 = document.getElementById('myList3');
-const checkbox4 = document.getElementById('toggleList4');
-const list4 = document.getElementById('myList4');
-const checkbox5= document.getElementById('toggleList5');
-const list5 = document.getElementById('myList5');
-const checkbox6= document.getElementById('toggleList6');
-const list6 = document.getElementById('myList6');
-const checkbox7= document.getElementById('toggleList7');
-const list7 = document.getElementById('myList7');
-const checkbox8= document.getElementById('toggleList8');
-const list8 = document.getElementById('myList8');
-
-
-
-
 /*
 function goBack() {
   window.history.back();
@@ -97,10 +77,14 @@ function validateForm() {
   form.reset();
   return false; // منع الإرسال الفعلي في هذا المثال
 }
+
+
 function toggleMenu() {
         const navList = document.querySelector("nav ul");
         navList.classList.toggle("show");
-    }
+}
+
+
 function toggleCardDetails(button) {
   const details = button.nextElementSibling;
   if (details.classList.contains("hidden")) {
