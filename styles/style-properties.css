@@ -131,44 +131,6 @@
   display: none;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .property-table, .property-table thead, .property-table tbody, .property-table th, .property-table td, .property-table tr {
-    display: block;
-  }
-
-  .property-table thead tr {
-    display: none;
-  }
-
-  .property-table tr {
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
-    background-color: white;
-    padding: 15px;
-  }
-
-  .property-table td {
-    text-align: right;
-    padding-left: 50%;
-    position: relative;
-  }
-
-  .property-table td::before {
-    content: attr(data-label);
-    position: absolute;
-    right: 15px;
-    top: 12px;
-    font-weight: 700;
-    color: #00587a;
-    white-space: nowrap;
-  }
-
-  .details-row td {
-    padding-left: 15px !important;
-  }
-}
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));

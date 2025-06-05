@@ -1,19 +1,19 @@
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     header h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .menu-toggle {
         display: block;
     }
 
-    nav ul {
-    flex-direction: column;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease, opacity 0.5s ease;
-    opacity: 0;
-    background-color: #007ea7;
+    nav ul {  
+        flex-direction: column;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease, opacity 0.5s ease;
+        opacity: 0;
+        background-color: #007ea7;
     }
 }
