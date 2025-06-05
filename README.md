@@ -1,4 +1,4 @@
 # svu-project-web201
 Simple web project for `svu` students.
 
-Website link : https://svu-project-web201.pages.dev
+Website link : https://omar-haidar.github.io/svu-project-web201/
